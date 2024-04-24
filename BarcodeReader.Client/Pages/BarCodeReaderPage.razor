@@ -1,0 +1,43 @@
+﻿@page "/barcodereader"
+
+
+<h3>BarCode Reader Page</h3>
+@* https://github.com/sabitertan/BlazorBarcodeScanner *@
+
+
+@* <BlazorBarcodeScanner.ZXing.JS.BarcodeReader /> *@
+
+
+@* <BlazorBarcodeScanner.ZXing.JS.BarcodeReader @ref="_reader" *@
+<BlazorBarcodeScanner.ZXing.JS.BarcodeReader
+                                             StartCameraAutomatically="true"
+                                             ShowStart="false"
+                                             ShowStop="false"
+                                             ShowReset="false"
+                                             ShowToggleTorch="false"
+                                             ShowVideoDeviceList="false"
+                                                                              
+                                                                              StreamWidth="1920"
+                                                                              StreamHeight="1080"
+                                                                              />
+
+@* DecodedPictureCapture="true" *@
+@* <button @onclick="OnGrabFrame">Grab image</button> *@
+<!-- If there is no source URL, we hide the image to avoid he "broken image" icons... -->
+@* <img src="@_imgSrc" style="@(string.IsNullOrWhiteSpace(_imgSrc) ? "display:none;" : "")" /> *@
+
+
+@code {
+
+    // private BarcodeReader _reader = new BarcodeReader();
+    // private string _imgSrc = string.Empty;
+
+    // private async void OnGrabFrame(MouseEventArgs args)
+    // {
+    //     if (_reader != null)
+    //     {
+    //         _imgSrc = await _reader.Capture();
+    //         StateHasChanged();
+    //     }
+    // }
+}

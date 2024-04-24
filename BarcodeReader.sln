@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeReader.Server", "BarcodeReader.Server\BarcodeReader.Server.csproj", "{2BC66929-D235-402B-AD71-6FB0C9892198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarcodeReader.Server", "BarcodeReader.Server\BarcodeReader.Server.csproj", "{2BC66929-D235-402B-AD71-6FB0C9892198}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeReader.Client", "BarcodeReader.Client\BarcodeReader.Client.csproj", "{0B6D5A63-E99A-413E-A065-CAD16C914A87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarcodeReader.Client", "BarcodeReader.Client\BarcodeReader.Client.csproj", "{0B6D5A63-E99A-413E-A065-CAD16C914A87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarcodeReader.Shared", "BarcodeReader.Shared\BarcodeReader.Shared.csproj", "{C7134A40-9FBC-4BE7-8567-E91733344340}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarcodeReader.Shared", "BarcodeReader.Shared\BarcodeReader.Shared.csproj", "{C7134A40-9FBC-4BE7-8567-E91733344340}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
